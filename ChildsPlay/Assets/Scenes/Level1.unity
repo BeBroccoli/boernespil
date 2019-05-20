@@ -17093,7 +17093,7 @@ PrefabInstance:
     - target: {fileID: 43830072487187487, guid: 7e4b727a8e7398747b3484765e6ba4ee,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 43830072487187487, guid: 7e4b727a8e7398747b3484765e6ba4ee,
         type: 3}
@@ -24418,7 +24418,6 @@ Transform:
   m_LocalPosition: {x: -5.56, y: -3.314, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 2090034043}
   - {fileID: 225589547}
   - {fileID: 1330444140}
   m_Father: {fileID: 0}
@@ -24764,75 +24763,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 853994980}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &1795031402
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 963927383}
-    m_Modifications:
-    - target: {fileID: 2219147647648962978, guid: 7e4b727a8e7398747b3484765e6ba4ee,
-        type: 3}
-      propertyPath: m_Name
-      value: FoodBowl
-      objectReference: {fileID: 0}
-    - target: {fileID: 43830072487187487, guid: 7e4b727a8e7398747b3484765e6ba4ee,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 4.0057425
-      objectReference: {fileID: 0}
-    - target: {fileID: 43830072487187487, guid: 7e4b727a8e7398747b3484765e6ba4ee,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.14149785
-      objectReference: {fileID: 0}
-    - target: {fileID: 43830072487187487, guid: 7e4b727a8e7398747b3484765e6ba4ee,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 43830072487187487, guid: 7e4b727a8e7398747b3484765e6ba4ee,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 43830072487187487, guid: 7e4b727a8e7398747b3484765e6ba4ee,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 43830072487187487, guid: 7e4b727a8e7398747b3484765e6ba4ee,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 43830072487187487, guid: 7e4b727a8e7398747b3484765e6ba4ee,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 43830072487187487, guid: 7e4b727a8e7398747b3484765e6ba4ee,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 43830072487187487, guid: 7e4b727a8e7398747b3484765e6ba4ee,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 43830072487187487, guid: 7e4b727a8e7398747b3484765e6ba4ee,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 43830072487187487, guid: 7e4b727a8e7398747b3484765e6ba4ee,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 7e4b727a8e7398747b3484765e6ba4ee, type: 3}
 --- !u!1 &1864814476
 GameObject:
   m_ObjectHideFlags: 0
@@ -24942,7 +24872,7 @@ PrefabInstance:
     - target: {fileID: 43830072487187487, guid: 7e4b727a8e7398747b3484765e6ba4ee,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 43830072487187487, guid: 7e4b727a8e7398747b3484765e6ba4ee,
         type: 3}
@@ -24961,12 +24891,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7e4b727a8e7398747b3484765e6ba4ee, type: 3}
---- !u!4 &2090034043 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 43830072487187487, guid: 7e4b727a8e7398747b3484765e6ba4ee,
-    type: 3}
-  m_PrefabInstance: {fileID: 1795031402}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2835553678797812480
 PrefabInstance:
   m_ObjectHideFlags: 0
