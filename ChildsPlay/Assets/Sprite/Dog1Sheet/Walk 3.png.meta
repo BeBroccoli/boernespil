@@ -1,9 +1,5 @@
 fileFormatVersion: 2
-<<<<<<< HEAD:ChildsPlay/Assets/BG123.png.meta
-guid: 2601c879e03818b4eb7838e5e4851720
-=======
-guid: 2e8a4a41ad5165d498f31854d7fe72a7
->>>>>>> 41852be158976aa5ff91d8b73f904ac64618bfd3:ChildsPlay/Assets/BG-123.png.meta
+guid: 2a6844dd1e3ab5d428da3e71b86ff879
 TextureImporter:
   fileIDToRecycleName: {}
   externalObjects: {}
@@ -79,11 +75,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-<<<<<<< HEAD:ChildsPlay/Assets/BG123.png.meta
-    spriteID: d5d1592ca0bb2304ebe0e8179fde0669
-=======
-    spriteID: 99b11b0ffa06d9948961b7257527b7cd
->>>>>>> 41852be158976aa5ff91d8b73f904ac64618bfd3:ChildsPlay/Assets/BG-123.png.meta
+    spriteID: 851f97baf2125f94eb94a2ef050f3a92
     vertices: []
     indices: 
     edges: []
