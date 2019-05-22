@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: CoinUI
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":119.4326,"y":187.1246},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-204.0,"y":-144.0},"guid":"a11b18b6-9565-408a-9ded-dd56376b5ad9","$version":"A","$type":"Bolt.Start"},{"coroutine":false,"defaultValues":{},"position":{"x":-204.0,"y":60.0},"guid":"4a02c048-1dbc-4707-8aa1-a888bfc4159d","$version":"A","$type":"Bolt.Update","$id":"11"},{"chainable":false,"member":{"name":"ToString","parameterTypes":[],"targetType":"System.Int32","targetTypeName":"System.Int32","$version":"A"},"defaultValues":{"target":{"$content":0,"$type":"System.Int32"}},"position":{"x":41.0,"y":64.0},"guid":"52773ade-bfb3-4b26-8266-453b2e0d26d9","$version":"A","$type":"Bolt.InvokeMember","$id":"13"},{"chainable":false,"member":{"name":"text","parameterTypes":null,"targetType":"UnityEngine.UI.Text","targetTypeName":"UnityEngine.UI.Text","$version":"A"},"defaultValues":{"target":null,"input":{"$content":"","$type":"System.String"}},"position":{"x":311.0,"y":63.0},"guid":"a055e1d1-3d75-4eff-aaa6-4998839427a4","$version":"A","$type":"Bolt.SetMember","$id":"16"},{"type":"System.String","value":{"$content":"
+      out of 3","$type":"System.String"},"defaultValues":{},"position":{"x":28.0,"y":210.0},"guid":"a916af0b-14b9-430f-a659-db5b2400cfe9","$version":"A","$type":"Bolt.Literal","$id":"19"},{"specifyFallback":false,"kind":"Scene","defaultValues":{"name":{"$content":"Coins","$type":"System.String"}},"position":{"x":-159.0,"y":172.0},"guid":"59750fcd-0688-4644-8439-6c151bc35f2b","$version":"A","$type":"Bolt.GetVariable","$id":"21"},{"defaultValues":{},"position":{"x":179.0,"y":170.0},"guid":"8053877e-a967-45e0-baa2-a7a6b1deb140","$version":"A","$type":"Bolt.GenericAdd","$id":"23"},{"sourceUnit":{"$ref":"13"},"sourceKey":"exit","destinationUnit":{"$ref":"16"},"destinationKey":"assign","guid":"7308e261-3b57-477f-a3c8-2840397e6c19","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"11"},"sourceKey":"trigger","destinationUnit":{"$ref":"13"},"destinationKey":"enter","guid":"5b1f132e-f186-44cc-b98e-28a899688381","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"21"},"sourceKey":"value","destinationUnit":{"$ref":"13"},"destinationKey":"target","guid":"96d0e0f9-3e29-4de2-9ee6-4149300f73dd","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"23"},"sourceKey":"sum","destinationUnit":{"$ref":"16"},"destinationKey":"input","guid":"0f66245e-8de7-4099-972a-152bdc88f331","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"19"},"sourceKey":"output","destinationUnit":{"$ref":"23"},"destinationKey":"b","guid":"997099b1-d11b-4a9e-8f01-13f9e9ee6a84","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"13"},"sourceKey":"result","destinationUnit":{"$ref":"23"},"destinationKey":"a","guid":"2e5802e4-6e82-4fb2-ba8a-5c1c26ba3d87","$type":"Bolt.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []
