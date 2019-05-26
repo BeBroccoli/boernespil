@@ -8,6 +8,7 @@ TagManager:
   - Death
   - foodbowl
   - Coin
+  - Death1
   layers:
   - Default
   - TransparentFX
